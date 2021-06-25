@@ -1,0 +1,19 @@
+.boxes {
+   display: grid;
+   grid-template-columns: 420px 420px;
+   grid-template-rows: auto auto;
+   position: relative;
+   max-width: 100%;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+@media screen and (max-width: 600px) {
+   .boxes {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 220px 220px;
+      place-items: center;
+      cursor: default;
+   }
+}

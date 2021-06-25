@@ -1,0 +1,20 @@
+.addBtn {
+   color: #fff;
+   position: fixed;
+   background-color: #008CBA;
+   max-width: 100%;
+   bottom: 0;
+   left: 48%;
+   width: 65px;
+   height: 65px;
+   border: none;
+   margin-bottom: 10px;
+   font-size: 45px;
+   padding-bottom: 5px;
+   border-radius: 50px;
+   cursor: pointer;
+}
+
+.addBtn:hover {
+   opacity: .8;
+}

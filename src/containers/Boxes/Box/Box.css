@@ -1,0 +1,79 @@
+.box, .box0, .box1, .box2, .box3, .box4 {
+   height: 200px;
+   width: 400px;
+   border-radius: 8px;
+   background-color: #25292f;
+   position: relative;
+   margin: 5px;
+}
+
+.box5, .box6 {
+   height: 170px;
+   width: 380px;
+   border-radius: 8px;
+   background-color: #25292f;
+   position: relative;
+   margin: 5px;
+}
+
+.box7, .box8 {
+   height: 110px;
+   width: 350px;
+   border-radius: 8px;
+   background-color: #25292f;
+   position: relative;
+   margin: 5px;
+}
+
+.box9, .box10 {
+   height: 80px;
+   width: 320px;
+   border-radius: 8px;
+   background-color: #25292f;
+   position: relative;
+   margin: 5px;
+}
+
+.box11, .box12 {
+   height: 70px;
+   width: 300px;
+   border-radius: 8px;
+   background-color: #25292f;
+   position: relative;
+   margin: 5px;
+}
+
+.content {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   margin-bottom: 6px;
+   margin-left: 6px;
+   color: #fff;
+   font-size: 13px;
+   background-color: #1a1d21;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+
+.fa-trash-o {
+   color: #fff;
+   position: absolute;
+   left: 0;
+   top: 0;
+   margin-top: 6px;
+   margin-left: 5px;
+   background-color: #1a1d21;
+   border-radius: 50px;
+   padding: 6px 8px;
+   font-size: 15px;
+   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+   .box, .box1, box2, .box3, .box4, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12 {
+      height: 100px;
+      width: 150px;
+      margin: 2px;
+   }
+}
